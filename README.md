@@ -37,7 +37,7 @@ The installation process is simple, just follow the steps below:
 - Download the latest version of the theme to your `kitty-themes` folder with the following command:
 
 ```bash
-wget "https://raw.githubusercontent.com/VictorPLopes/OneDark-Pro-Kitty-Terminal/main/master/kitty-themes/OneDark-Pro.conf" -P ~/.config/kitty/kitty-themes/themes
+wget "https://raw.githubusercontent.com/VictorPLopes/OneDark-Pro-Kitty-Terminal/main/kitty-themes/OneDark-Pro.conf" -P ~/.config/kitty/kitty-themes/themes
 ```
 
 - Create a symlink:
