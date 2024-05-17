@@ -49,7 +49,7 @@ ln -s ~/.config/kitty/kitty-themes/themes/OneDark-Pro.conf ~/.config/kitty/theme
 - Apply the theme to Kitty:
 
 ```bash
-echo 'include ./theme.conf' >> ~/.config/kitty/kitty.conf
+printf '\ninclude ./theme.conf' >> ~/.config/kitty/kitty.conf
 ```
 
 ## Add tabs, transparency and other QoL changes (like in the screenshots)
