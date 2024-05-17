@@ -83,7 +83,7 @@ window_margin_width 8
 Alternatively, you can copy [my kitty.conf file](./kitty.conf) to `~/.config/kitty`, which already has everything mentioned above (and the theme enabled):
 
 ```bash
-wget "https://raw.githubusercontent.com/VictorPLopes/OneDark-Pro-Kitty-Terminal/main/master/kitty.conf" -P ~/.config/kitty
+wget "https://raw.githubusercontent.com/VictorPLopes/OneDark-Pro-Kitty-Terminal/main/kitty.conf" -P ~/.config/kitty
 ```
 
 ## Support me
