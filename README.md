@@ -37,19 +37,19 @@ The installation process is simple, just follow the steps below:
 - Download the latest version of the theme to your `kitty-themes` folder with the following command:
 
 ```bash
-wget "https://raw.githubusercontent.com/VictorPLopes/OneDark-Pro-Kitty-Terminal/main/kitty-themes/OneDark-Pro.conf" -P ~/.config/kitty/kitty-themes/themes
+wget "https://raw.githubusercontent.com/VictorPLopes/OneDark-Pro-Kitty-Terminal/main/themes/OneDark-Pro.conf" -P ~/.config/kitty/themes
 ```
 
 - Create a symlink:
 
 ```bash
-ln -s ~/.config/kitty/kitty-themes/themes/OneDark-Pro.conf ~/.config/kitty/theme.conf
+ln -s ~/.config/kitty/themes/OneDark-Pro.conf ~/.config/kitty/current-theme.conf
 ```
 
 - Apply the theme to Kitty:
 
 ```bash
-printf '\ninclude ./theme.conf' >> ~/.config/kitty/kitty.conf
+printf '\ninclude ./current-theme.conf' >> ~/.config/kitty/kitty.conf
 ```
 
 ## Add tabs, transparency and other QoL changes (like in the screenshots)
